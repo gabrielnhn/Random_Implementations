@@ -44,8 +44,8 @@ def put_next(guy, row):
 
     if len(row) == len(people) and (row not in good_rows):
     # a new full row, check it out
-        for sit in range(len(row) - 1):
-            if (row[sit].gender == 'Girl') and (row[sit + 1].gender == 'Girl'):
+        for seat in range(len(row) - 1):
+            if (row[seat].gender == 'Girl') and (row[seat + 1].gender == 'Girl'):
             # if 2 girls are next to each other:
                 good_rows.append(list(row))
                 break
