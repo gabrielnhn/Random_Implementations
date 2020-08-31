@@ -5,7 +5,8 @@ All of them want to sit together in the same row,
 but the 2 girls must sit next to each other.
 In how many different ways can we sort the row?
 
-This solution was implemented by Gabriel Hishida.
+
+This implementation uses backtracking.
 """
 
 
